@@ -19,7 +19,7 @@ public class LinearSearch {
         }
         return -1;
 
-        // O(n)
+        // The time complexity of this algorithm is O(n)
     }
 
 }

@@ -26,8 +26,10 @@ public class BinarySearch {
             }
         }
         return index;
-    }
-    //ToDo 2: Call the above method and test the algorithm  
-    // provide time and space analysis 
+    } // The time complexity of this algorithm is O(logn), the space complexity is O(c)
 
+    public static void main(String[] args) {
+        int[] arr = {1,2,3,4,5,6,7,8,9,10};
+        System.out.println(runBinarySearchIteratively(arr, 3, 1, 10));
+    }
 }
